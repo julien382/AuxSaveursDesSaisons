@@ -1,0 +1,54 @@
+/*-- header --*/
+header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo
+{
+    width: 400px;
+    margin-top: 10px;
+}
+
+ /*-- nav --*/ 
+
+.nav
+{
+    display: flex;
+    margin-left: 12%;
+    margin-top: 30px;
+    font-size: 20px; 
+}
+
+.a_nav
+{
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+    border-top: 2px solid white;
+    font-weight: bold;
+}
+
+.a_nav:hover
+{
+    border-top: 2px solid #50854d;
+    color: #50854d;
+}
+
+.a_nav_contact
+{
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+    border-top: 2px solid white;
+    font-weight: bold;
+}
+
+.a_nav_contact:hover
+{
+    border-top: 2px solid #50854d;
+    color: #50854d;
+}
