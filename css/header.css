@@ -16,10 +16,14 @@ header
 
 .nav
 {
-    display: flex;
     margin-left: 12%;
     margin-top: 30px;
     font-size: 20px; 
+}
+
+ol
+{
+    display: flex;
 }
 
 .a_nav
@@ -39,16 +43,5 @@ header
 
 .a_nav_contact
 {
-    padding: 25px;
-    text-decoration: none;
-    color: black;
     margin-left: 100px;
-    border-top: 2px solid white;
-    font-weight: bold;
-}
-
-.a_nav_contact:hover
-{
-    border-top: 2px solid #50854d;
-    color: #50854d;
 }
