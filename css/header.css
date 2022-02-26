@@ -45,14 +45,16 @@ header
 /* checkbox navbar*/
 #ch:checked+.navbar__links
 {
-    transform:translate(0,0);
-    transition: all 0.5s ease;
+    transform: translate(0,0);
+    transition: all 0.5s ease;  
 }
+
 /* chekbox */
 #ch
 {
     display: none;
 }
+
 /* logo qui remplace la chekbox */
 #lab
 {
@@ -61,5 +63,8 @@ header
     height: 30px;
     background: linear-gradient(var(--main-color) 0%,var(--main-color) 20%,transparent 21%, transparent 40%,var(--main-color) 41%,var(--main-color) 60%,transparent 61%, transparent 80%,var(--main-color) 81%,var(--main-color) 100%);
     margin: 50px;
-    
+}
+
+.navbar__link_contact{
+    display: none;
 }
