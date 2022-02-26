@@ -9,8 +9,7 @@ header
 
 .logo
 {
-    width: 400px;
-    margin-top: 10px;
+    width: 200px;
 }
 
  /*-- nav --*/ 
@@ -27,13 +26,12 @@ header
 .navbar__link
 {
     display: block;
-    padding: 25px;
+    padding: 20px;
     text-decoration: none;
     color: black;
     border-top: 2px solid transparent;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 30px
 }
 
 .navbar__link:hover
@@ -62,7 +60,7 @@ header
     width: 30px;
     height: 30px;
     background: linear-gradient(var(--main-color) 0%,var(--main-color) 20%,transparent 21%, transparent 40%,var(--main-color) 41%,var(--main-color) 60%,transparent 61%, transparent 80%,var(--main-color) 81%,var(--main-color) 100%);
-    margin: 50px;
+    margin: 20px;
 }
 
 .navbar__link_contact{
