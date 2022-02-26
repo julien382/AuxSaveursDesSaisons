@@ -3,8 +3,8 @@
 header
 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 .logo
@@ -15,16 +15,13 @@ header
 
  /*-- nav --*/ 
 
-.navbar
-{
-    margin-left: 12%;
-    margin-top: 30px;
-    font-size: 20px; 
-}
-
 .navbar__links
 {
-    display: flex;
+    display: block;
+    position: absolute;
+    flex-direction: column;
+    transform:translate(0, -1000px);
+    transition: all 0.5s ease;
 }
 
 .navbar__link
@@ -33,8 +30,10 @@ header
     padding: 25px;
     text-decoration: none;
     color: black;
-    border-top: 2px solid white;
+    border-top: 2px solid transparent;
     font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px
 }
 
 .navbar__link:hover
@@ -43,35 +42,24 @@ header
     color: var(--main-color);
 }
 
-.navbar__link_contact
+/* checkbox navbar*/
+#ch:checked+.navbar__links
 {
-    margin-left: 100px;
+    transform:translate(0,0);
+    transition: all 0.5s ease;
 }
-
-@media only screen and (max-width: 960px)
+/* chekbox */
+#ch
 {
-
-    .navbar
-    {
-        margin-left: 0;
-        margin-top: 0;
-    }
-
-    .navbar__links
-    {
-        display:flex;
-        flex-direction: column;
-        align-items: flex-start;
-        transform:translate(-1000px, 0);
-    }
-
-    .navbar__link_contact
-    {
-        margin-left: 0;
-    }
+    display: none;
+}
+/* logo qui remplace la chekbox */
+#lab
+{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(var(--main-color) 0%,var(--main-color) 20%,transparent 21%, transparent 40%,var(--main-color) 41%,var(--main-color) 60%,transparent 61%, transparent 80%,var(--main-color) 81%,var(--main-color) 100%);
+    margin: 50px;
     
-    #ch:checked+.navbar__links{
-        transform:translate(0,0);
-    }
-
 }
