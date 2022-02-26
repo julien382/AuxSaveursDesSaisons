@@ -1,4 +1,5 @@
 /*-- header --*/
+
 header
 {
     display: flex;
@@ -14,19 +15,19 @@ header
 
  /*-- nav --*/ 
 
-.nav
+.navbar
 {
     margin-left: 12%;
     margin-top: 30px;
     font-size: 20px; 
 }
 
-ol
+.navbar__links
 {
     display: flex;
 }
 
-.a_nav
+.navbar__link
 {
     padding: 25px;
     text-decoration: none;
@@ -35,13 +36,13 @@ ol
     font-weight: bold;
 }
 
-.a_nav:hover
+.navbar__link:hover
 {
-    border-top: 2px solid #50854d;
-    color: #50854d;
+    border-top: 2px solid var(--main-color);
+    color: var(--main-color);
 }
 
-.a_nav_contact
+.navbar__link_contact
 {
     margin-left: 100px;
 }

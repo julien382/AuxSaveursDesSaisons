@@ -1,4 +1,7 @@
 html
 {
     font-family: 'Alice', sans-serif;
+
+    /* --- color --- */
+    --main-color: #50854d;
 }
