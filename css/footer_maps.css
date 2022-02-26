@@ -1,7 +1,6 @@
 .footer_maps{
     display: flex;
     flex-direction: column;
-    background-color: aqua;
     height: 500px;
 }
 
@@ -13,5 +12,14 @@
 .googlemap
 {
     width: 100%;
-    border: solid 5px red;
+}
+
+.footer_maps__partie__icon_text
+{
+    display: flex;
+}
+
+.fa-solid
+{
+    color: var(--main-color);
 }
