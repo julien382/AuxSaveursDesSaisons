@@ -1,0 +1,10 @@
+.footer_maps{
+    display: flex;
+    background-color: aqua;
+    height: 500px;
+}
+
+.footer_maps__partie{
+    background-color:none;
+    width: 50%;
+}
