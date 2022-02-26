@@ -29,6 +29,7 @@ header
 
 .navbar__link
 {
+    display: block;
     padding: 25px;
     text-decoration: none;
     color: black;
@@ -45,4 +46,32 @@ header
 .navbar__link_contact
 {
     margin-left: 100px;
+}
+
+@media only screen and (max-width: 960px)
+{
+
+    .navbar
+    {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .navbar__links
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        transform:translate(-1000px, 0);
+    }
+
+    .navbar__link_contact
+    {
+        margin-left: 0;
+    }
+    
+    #ch:checked+.navbar__links{
+        transform:translate(0,0);
+    }
+
 }
