@@ -1,3 +1,9 @@
+#carroussel
+{
+    width: 100%;
+    overflow: hidden;
+}
+
 .carroussel__images
 {
     display: flex;
