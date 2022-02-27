@@ -1,5 +1,10 @@
 .carroussel__images
 {
+    width: 100%;
+}
+
+.carroussel__images
+{
     display: flex;
     height: 150px;
     animation-duration: 60s;

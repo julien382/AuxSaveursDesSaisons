@@ -1,6 +1,7 @@
 html
 {
     font-family: 'Alice', sans-serif;
+    font-size: 20px;;
 
     /* --- color --- */
     --main-color: #50854d;
