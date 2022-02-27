@@ -1,0 +1,19 @@
+.galerie__cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galerie__card{
+    height: 220px;
+    width: 100%;
+    overflow: hidden;
+    margin: 10px;
+    margin-bottom: 0;
+    border-radius: 20px;
+    border: 2px solid var(--main-color);
+}
+
+.galerie__card img{
+    max-height: 100%;
+    width: 100%;
+}
