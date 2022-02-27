@@ -2,7 +2,7 @@
 {
     display: flex;
     height: 150px;
-    animation-duration: 6s;
+    animation-duration: 60s;
     animation-name: mesImages;
     animation-iteration-count: infinite;
 }
