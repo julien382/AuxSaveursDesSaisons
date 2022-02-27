@@ -1,0 +1,21 @@
+.carroussel__images
+{
+    display: flex;
+    height: 150px;
+    animation-duration: 6s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mesImages 
+{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-700px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
