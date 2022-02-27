@@ -10,18 +10,24 @@
         <link rel="stylesheet" href="css/mobile.css" />
         <link rel="stylesheet" href="css/desktop.css" />
         <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/A_Propos.css" />
+        <link rel="stylesheet" href="css/footer_maps.css" />
+        <link rel="stylesheet" href="css/footer.css" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a1f8d8f6ea.js" crossorigin="anonymous"></script>
     </head> 
     
     <body>
         <!-- header -->
         <header>
-            <img class="logo" src="images/logo_droit.PNG" alt="Logo" />
+            <img class="logo" src="images/logo/logo_droit.PNG" alt="Logo" />
             <!-- nav -->
             <nav class="navbar">
+                <label for="ch" id="lab"></label>
+                <input type="checkbox"id="ch" />
                 <ol class="navbar__links">
                     <li><a class="navbar__link" href="index.html">A PROPOS</a></li>
                     <li><a class="navbar__link" href="nos_services.html">NOS SERVICES</a></li>
@@ -37,8 +43,52 @@
             <h1>galerie</h1>
         </main>
 
-        <!-- footer -->
-        <footer></footer>
+        <!-- section footer_maps -->
+        <section class="footer_maps">
+            <div class="footer_maps__partie">
+                <div class="footer_maps__all_texte">
+                    <div class="footer_maps__partie__icon_text">
+                        <i class="logofa fa-solid fa-clock"></i>
+                        <div>
+                            <p>Mercredi de 17h à 18h30</p>
+                            <p>Samedi de 10h à 12h</p>
+                        </div>
+                    </div>
+                    <div class="footer_maps__partie__icon_text">
+                        <i class="logofa fa-solid fa-phone"></i>
+                        <span>06 22 74 79 88</span>
+                    </div>
+                    <div class="footer_maps__partie__icon_text">
+                        <i class="logofa fa-solid fa-location-dot"></i>
+                        <div>
+                            <p>10, Grand Rue</p>
+                            <p>62124 Bus</p>
+                        </div>
+                    </div>
+                    <div class="footer_maps__partie__icon_text">
+                        <i class="logofa fa-solid fa-envelope"></i>
+                        <div>ASDS@gmail.com</div>
+                    </div>
+                    <div class="footer_maps__partie__icon_text">
+                        <a href="https://www.facebook.com/helene.wiart.31"><i class="logofa fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_maps__partie">
+                <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20489.847400391103!2d2.958351279622245!3d50.063236794535065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2adde945508b9%3A0x49f560f53a32cf8b!2sAux%20Saveurs%20Des%20Saisons!5e0!3m2!1sfr!2sfr!4v1645913154510!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
 
+        <!-- footer -->
+        <footer>
+            <span class="footer__barre"></span>
+            <div class="footer__copyright">
+                <i class="logofa fa-solid fa-copyright"></i>
+                <div class="footer__copyright__text"> 
+                    <p>2022 Aux Saveurs des Saisons - Tous droits réservées - Mentions légales - Politique de confidentialité</p>
+                    <p>Conception du site: Julien Hermain</p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
