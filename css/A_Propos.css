@@ -1,4 +1,4 @@
-#carroussel
+/*#carroussel
 {
     width: 100%;
     overflow: hidden;
@@ -25,4 +25,26 @@
     100%{
         transform: translateX(0px);
     }
+}*/
+
+#carroussel
+{
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.carroussel__images 
+{
+    animation: scroll 60s linear infinite;
+    animation-iteration-count: infinite;
+    display: flex;
+    height: 100%;
+    width: calc(100% * 3);
+}
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	50% { transform: translateX(calc(-100%))}
+    100%{transform: translateX(0px); }
 }
