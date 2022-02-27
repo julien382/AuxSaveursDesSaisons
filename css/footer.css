@@ -1,0 +1,20 @@
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__barre
+{
+    display: block;
+    color: var(--main-color);
+    border: 1px solid;
+    margin: 15px;
+}
+
+.footer__copyright
+{
+    display: flex;
+    
+    align-items: center;
+    padding: 15px;
+}
