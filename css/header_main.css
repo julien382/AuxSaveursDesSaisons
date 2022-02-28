@@ -1,0 +1,14 @@
+ /* --- header main --- */
+
+ .header_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(228, 228, 228);
+}
+
+.header_main__text{
+    padding-left: 10px;
+}
