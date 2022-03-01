@@ -33,10 +33,10 @@ header
 .navbar__link
 {
     display: inline-block;
-    padding: 20px;
+    padding: 25px;
     text-decoration: none;
     color: var(--main-color);
-    border-top: 2px solid transparent;
+    border-top: 2px solid var(--main-color);
     font-weight: bold;
     font-size: 20px;
 }
