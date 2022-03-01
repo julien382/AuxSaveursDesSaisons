@@ -1,31 +1,37 @@
 footer{
-    display: flex;
-    flex-direction: row;
     background-color: rgb(82, 82, 82);
     color: white;
     margin-top: 8px;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    font-size: 12px;
 }
 
-.footer__barre
-{
+.footer__partie_Logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo{
+    width: 150px;
+}
+
+.footer__barre{
     display: block;
     color: var(--main-color);
     border: 1px solid;
     margin: 15px;
 }
 
-.footer__copyright
-{
+.footer__partie_copyright{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 15px;
     padding-left: 0;
 }
 
-.footer__copyright__text
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.fa-copyright{
+    font-size: 13px;
 }
