@@ -17,7 +17,9 @@ header
 
 .navbar__links
 {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     z-index: 1;
     flex-direction: column;
@@ -33,7 +35,7 @@ header
     display: inline-block;
     padding: 20px;
     text-decoration: none;
-    color: black;
+    color: var(--main-color);
     border-top: 2px solid transparent;
     font-weight: bold;
     font-size: 20px;
