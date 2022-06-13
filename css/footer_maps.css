@@ -30,7 +30,6 @@
     display: flex;
     justify-content: center;
     padding: 15px;
-    padding-left: 0;
 }
 
 .googlemap
@@ -43,7 +42,7 @@
 {
     font-size: 20px;
     color: white;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .fa-facebook{

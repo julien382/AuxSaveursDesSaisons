@@ -1,15 +1,15 @@
-/*#carroussel
+.slider
 {
     width: 100%;
     overflow: hidden;
 }
 
-.carroussel__images
+.slides
 {
     display: flex;
     width: 100%;
     height: 150px;
-    animation-duration: 60s;
+    animation-duration: 70s;
     animation-name: mesImages;
     animation-iteration-count: infinite;
 }
@@ -20,33 +20,9 @@
         transform: translateX(0);
     }
     50%{
-        transform: translateX(-100%);
+        transform: translateX(-1000px);
     }
     100%{
         transform: translateX(0px);
     }
-}*/
-
-#carroussel
-{
-    width: 100%;
-    height: 180px;
-    overflow: hidden;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.6);
-}
-
-.carroussel__images 
-{
-    animation: scroll 60s linear infinite;
-    animation-iteration-count: infinite;
-    display: flex;
-    height: 100%;
-}
-
-@keyframes scroll {
-	0% { transform: translateX(0); }
-	50% { transform: translateX(calc(-960px))}
-    100%{transform: translateX(0px); }
 }

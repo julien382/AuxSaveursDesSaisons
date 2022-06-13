@@ -13,6 +13,10 @@ footer{
     justify-content: space-between;
 }
 
+.footer__partie_Logo > p{
+    margin-right: 15px;
+}
+
 .header__logo{
     width: 150px;
 }
@@ -26,12 +30,21 @@ footer{
 
 .footer__partie_copyright{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 15px;
-    padding-left: 0;
     text-align: center;
+}
+
+.footer__partie_copyright > div{
+    display: flex;
 }
 
 .fa-copyright{
     font-size: 12px;
+}
+
+.lien_linkedIn{
+    color: var(--main-color);
 }
